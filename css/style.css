@@ -1,0 +1,83 @@
+@import "null.css";
+p{
+	color: gainsboro;
+}
+div{
+	color: red;
+}
+.about > p{
+	color: yellow;
+}
+.next-about + p{
+	color: yellowgreen;
+}
+.header,
+.main,
+.footer{
+	color: white;
+}
+.menu-poem,
+.header-poem{
+	color: blue;
+}
+.poem{
+	color: indigo;
+}
+.poem.pushkin{
+	color: khaki;
+}
+.poem.nekrasov{
+	color: yellow;
+}
+.poem-pushkin-1,
+.poem-pushkin-2,
+.poem-pushkin-3,
+.poem-nekrasov-1,
+.poem-nekrasov-2,
+.poem-nekrasov-3{
+	color: darkcyan;
+}
+h1{
+	color: red;
+}
+h2{
+	color: green;
+}
+h3{
+	color: seagreen;
+}
+p span{
+	color: violet;
+}
+span{
+	color: wheat;
+}
+.p1-span1p,
+.p1-span2p,
+.p1-span3p,
+.n1-span1n,
+.n1-span2n,
+.n1-span3n{
+	color: red;
+}
+.text{
+	color: gray;
+}
+.paragraph-pushkin,
+.paragraph-nekrasov{
+	color: red;
+}
+.text.paragraph-pushkin,
+.text.paragraph-nekrasov{
+	color: darkred;
+}
+#section-1{
+	color: tomato;
+}
+#pushkin,
+#nekrasov{
+	color: greenyellow;
+}
+[class*="-link"]{
+	color: olive;
+}
